@@ -27,8 +27,8 @@ const Header = () => {
                 to={"/generate"}
                 className={({ isActive }) =>
                   cn(
-                    "text-base text-neutral-600",
-                    isActive && "text-neutral-900 font-semibold"
+                    " text-neutral-600 text-2xl",
+                    isActive && "text-neutral-900 font-semibold text-2xl"
                   )
                 }
               >

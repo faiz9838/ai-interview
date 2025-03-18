@@ -12,8 +12,8 @@ export const NavigationRoutes = ({
   return (
     <ul
       className={cn(
-        "flex items-center gap-6",
-        isMobile && "items-start flex-col gap-8"
+        "flex items-center gap-10",
+        isMobile && "items-start flex-col gap-10"
       )}
     >
       {MainRoutes.map((route) => (
@@ -22,8 +22,8 @@ export const NavigationRoutes = ({
           to={route.href}
           className={({ isActive }) =>
             cn(
-              "text-base text-neutral-600",
-              isActive && "text-neutral-900 font-semibold"
+              "text-2xl text-neutral-600",
+              isActive && "text-neutral-900 font-semibold text-2xl"
             )
           }
         >
