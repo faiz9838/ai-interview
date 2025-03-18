@@ -1,7 +1,8 @@
 {
   "projects": {
     "default": "ai-mock-8770f",
-    "       ": "ai-mock-8770f"
+    "       ": "ai-mock-8770f",
+    "y": "ai-mock-8770f"
   },
   "targets": {},
   "etags": {}
