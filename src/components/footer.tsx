@@ -91,12 +91,12 @@ export const Footer = () => {
             <p className="mb-4">Kurla, Mumbai, Maharashtra, 400070</p>
             <div className="flex gap-4">
               <SocialLink
-                href="https://facebook.com"
+                href="https://github.com/faiz9838"
                 icon={<Github size={24} />}
                 hoverColor="text-blue-500"
               />
               <SocialLink
-                href="https://linkedin.com/afaiz8720"
+                href="https://www.linkedin.com/in/afaiz8720/"
                 icon={<Linkedin size={24} />}
                 hoverColor="text-blue-700"
               />
